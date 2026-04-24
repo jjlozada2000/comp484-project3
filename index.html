@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Status Manager Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app-container">
+      <h1 id="main-title">Status Manager</h1>
+
+      <div id="control-panel">
+        <a id="toggle-button" href="#">Click to Update Status</a>
+        <button id="timer-button">Start Timer</button>
+      </div>
+
+      <div id="status-output" class="hidden">
+        <p>Current Status Information:</p>
+      </div>
+
+      <!-- This is the element the timer flashes, separate from the control panel -->
+      <div id="flash-target">
+        Timer is running...
+      </div>
+
+      <h2>Item List</h2>
+      <ul id="item-list">
+        <li>List Item One</li>
+        <li>List Item Two</li>
+        <li>List Item Three</li>
+        <li>List Item Four</li>
+        <li>List Item Five</li>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
